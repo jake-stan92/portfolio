@@ -1,0 +1,27 @@
+.header {
+  background-color: rgb(25, 71, 229);
+  color: white;
+  border-radius: 0px 0px 20px 20px;
+  display: grid;
+  place-items: center;
+  gap: 1.5rem;
+  padding: 2.5rem 0rem;
+}
+
+#avatar-img {
+  width: 120px;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.socials img {
+  width: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.75rem;
+}
