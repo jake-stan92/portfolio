@@ -1,0 +1,5 @@
+.about-section {
+  display: grid;
+  padding: 1rem 2rem 2rem 2rem;
+  gap: 2rem;
+}

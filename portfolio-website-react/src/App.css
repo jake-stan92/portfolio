@@ -15,5 +15,9 @@ html {
 body {
   width: 100%;
   flex: 1;
+}
+
+#root {
   display: grid;
+  gap: 1rem;
 }
