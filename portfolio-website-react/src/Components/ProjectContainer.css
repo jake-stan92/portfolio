@@ -1,0 +1,77 @@
+.project-container {
+  display: grid;
+  padding: 1rem 0rem 2rem 0rem;
+  gap: 2rem;
+  margin: 0rem 2rem;
+  border-bottom: 2px solid black;
+}
+
+.carousel {
+  /* position: relative; */
+  max-width: 100%;
+  display: grid;
+  /* overflow: hidden; */
+}
+
+.carousel-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.carousel-buttons img {
+  display: flex;
+  align-items: center;
+}
+
+.carousel-button {
+  /* position: absolute;
+  top: 50%; */
+  /* transform: translateY(-50%); */
+  background-color: rgb(255, 189, 18);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 900;
+  border: none;
+  /* padding: 1rem; */
+  cursor: pointer;
+  /* z-index: 1; */
+  transition: background-color 0.3s;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  color: black;
+}
+
+#next-button,
+#prev-button {
+  border: 1px solid black;
+  border-bottom: 3px solid black;
+  padding: 1rem;
+}
+
+.carousel-button:hover {
+  background-color: rgb(255, 116, 0);
+}
+/* .carousel__btn--prev {
+  left: 0;
+}
+.carousel__btn--next {
+  right: 0;
+} */
+
+/* .project-card:hover {
+  transform: scale(1.05);
+} */
+
+.project-card {
+  width: 100%;
+  display: grid;
+  place-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgb(255, 244, 204);
+  border: 2px solid black;
+  border-bottom: 5px solid black;
+  border-radius: 15px;
+  padding: 1rem;
+}

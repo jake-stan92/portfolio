@@ -1,0 +1,19 @@
+h3 {
+  text-align: center;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link-logos {
+  padding-right: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.link-logos img {
+  width: 25px;
+}
