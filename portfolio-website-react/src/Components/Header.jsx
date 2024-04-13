@@ -1,9 +1,9 @@
 import React from "react";
 import "./Header.css";
-import githubLogo from "../assets/github.svg";
-import linkedInLogo from "../assets/linkedin.svg";
-import resumeLogo from "../assets/file-earmark-person-fill.svg";
-import avatar from "../assets/person-circle.svg";
+import githubLogo from "../assets/header-img/github.svg";
+import linkedInLogo from "../assets/header-img/linkedin.svg";
+import resumeLogo from "../assets/header-img/file-earmark-person-fill.svg";
+import avatar from "../assets/header-img/person-circle.svg";
 
 const Header = () => {
   return (
