@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./Components/About";
+import ContactForm from "./Components/ContactForm";
 import Header from "./Components/Header";
 import Nav from "./Components/Nav";
 import ProjectContainer from "./Components/ProjectContainer";
@@ -16,6 +17,7 @@ function App() {
       <Nav />
       <About />
       <ProjectContainer images={images} />
+      <ContactForm />
     </>
   );
 }

@@ -1,0 +1,43 @@
+.contact-form-container {
+  background-color: rgb(255, 244, 204);
+  margin: 1rem 2rem 2rem 2rem;
+  padding: 1rem;
+  border: 2px solid black;
+  border-bottom: 5px solid black;
+  border-radius: 15px;
+}
+
+#contact-form {
+  display: grid;
+  gap: 0.5rem;
+}
+
+input,
+textarea {
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+#submit-form-button {
+  color: white;
+  background-color: black;
+  border: 0;
+  border-radius: 8px;
+  padding: 0.75rem;
+  font-weight: 700;
+  transition: background-color 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+#submit-form-button:hover {
+  background-color: rgb(255, 116, 0);
+  cursor: pointer;
+}
+
+.contact-form-container h2 {
+  margin-bottom: 1rem;
+}
