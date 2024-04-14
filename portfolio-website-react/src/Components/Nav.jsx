@@ -8,15 +8,15 @@ const Nav = () => {
   return (
     <div className="nav-links">
       <div className="nav-link">
-        <img className="nav-link-img" src={penImg}></img>
+        <img className="nav-link-img" src={penImg} alt="about image"></img>
         <p className="nav-link-name">About</p>
       </div>
       <div className="nav-link">
-        <img className="nav-link-img" src={flaskImg}></img>
+        <img className="nav-link-img" src={flaskImg} alt="projects image"></img>
         <p className="nav-link-name">Projects</p>
       </div>
       <div className="nav-link">
-        <img className="nav-link-img" src={mailImg}></img>
+        <img className="nav-link-img" src={mailImg} alt="contact image"></img>
         <p className="nav-link-name">Contact</p>
       </div>
     </div>

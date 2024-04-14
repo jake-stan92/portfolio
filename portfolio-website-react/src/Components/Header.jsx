@@ -8,11 +8,11 @@ import avatar from "../assets/header-img/person-circle.svg";
 const Header = () => {
   return (
     <div className="header">
-      <img id="avatar-img" src={avatar}></img>
+      <img id="avatar-img" src={avatar} alt="profile picture"></img>
       <div className="socials">
-        <img src={githubLogo}></img>
-        <img src={linkedInLogo}></img>
-        <img src={resumeLogo}></img>
+        <img src={githubLogo} alt="github logo"></img>
+        <img src={linkedInLogo} alt="linked in logo"></img>
+        <img src={resumeLogo} alt="download resume"></img>
       </div>
       <h1>
         Jake Stanier<br></br>Junior Web Developer

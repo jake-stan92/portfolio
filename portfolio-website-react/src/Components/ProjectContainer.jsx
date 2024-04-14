@@ -54,15 +54,17 @@ export default function ProjectContainer() {
             onClick={prevSlide}
             className="carousel-button"
             id="prev-button"
+            aria-label="Previous Button"
           >
-            <img src={leftArrow}></img>
+            <img src={leftArrow} alt="left arrow"></img>
           </button>
           <button
             onClick={nextSlide}
             className="carousel-button"
             id="next-button"
+            aria-label="Next Button"
           >
-            <img src={rightArrow}></img>
+            <img src={rightArrow} alt="right arrow"></img>
           </button>
         </div>
       </div>

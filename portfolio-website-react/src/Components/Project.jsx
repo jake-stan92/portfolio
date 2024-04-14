@@ -7,12 +7,12 @@ const Project = (props) => {
   return (
     <>
       <h3>{props.title}</h3>
-      <img src={props.img}></img>
+      <img src={props.img} alt="project screenshot"></img>
       <div className="subtitle">
         <h4>Description</h4>
         <div className="link-logos">
-          <img src={gitLogo}></img>
-          <img src={linkIcon}></img>
+          <img src={gitLogo} alt="github logo"></img>
+          <img src={linkIcon} alt="link to demo icon"></img>
         </div>
       </div>
       <p>{props.description}</p>
