@@ -9,6 +9,25 @@
   </head>
   <body>
     <div id="root"></div>
+    <form name="contact-form" method="POST" netlify hidden>
+      <input required type="text" id="name-input" placeholder="Full Name" />
+      <input
+        required
+        type="email"
+        id="email-input"
+        placeholder="Email Address"
+      />
+      <textarea
+        name="message-input"
+        id="message-input"
+        cols="30"
+        rows="10"
+        placeholder="Write Your Message..."
+        required
+        maxlength="{250}"
+      ></textarea>
+      <button type="submit" id="submit-form-button">Send Message</button>
+    </form>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

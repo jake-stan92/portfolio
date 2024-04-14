@@ -6,7 +6,7 @@ const ContactForm = () => {
   return (
     <div className="contact-form-container">
       <h2>Contact</h2>
-      <form action="" id="contact-form">
+      <form action="" id="contact-form" name="contact-form" netlify>
         <input required type="text" id="name-input" placeholder="Full Name" />
         <input
           required
