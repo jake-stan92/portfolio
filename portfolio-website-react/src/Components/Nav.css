@@ -10,6 +10,7 @@
 .nav-link {
   display: grid;
   place-items: center;
+  max-width: 200px;
   padding: 0.7rem;
   gap: 0.5rem;
   background-color: rgb(255, 244, 204);
@@ -17,9 +18,15 @@
   border-radius: 25px;
   border: 2px solid black;
   border-bottom: 5px solid black;
+  transition: background-color 0.4s;
 }
 
 .nav-link-img {
   width: 30px;
   height: auto;
+}
+
+.nav-link:hover {
+  background-color: rgb(255, 116, 0);
+  cursor: pointer;
 }

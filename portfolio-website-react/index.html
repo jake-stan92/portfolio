@@ -10,8 +10,15 @@
   <body>
     <div id="root"></div>
     <form name="contact-form" method="POST" netlify hidden>
-      <input required type="text" id="name-input" placeholder="Full Name" />
       <input
+        required
+        type="text"
+        id="name-input"
+        placeholder="Full Name"
+        name="name-input"
+      />
+      <input
+        name="email input"
         required
         type="email"
         id="email-input"

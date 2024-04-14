@@ -7,24 +7,26 @@ import avatar from "../assets/header-img/person-circle.svg";
 
 const Header = () => {
   return (
-    <div className="header">
-      <img id="avatar-img" src={avatar} alt="profile picture"></img>
-      <div className="socials">
-        <a href="https://github.com/jake-stan92" target="_blank">
-          <img src={githubLogo} alt="github logo"></img>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/jake-stanier-017267283/"
-          target="_blank"
-        >
-          <img src={linkedInLogo} alt="linked in logo"></img>
-        </a>
+    <div className="container">
+      <div className="header">
+        <img id="avatar-img" src={avatar} alt="profile picture"></img>
+        <div className="socials">
+          <a href="https://github.com/jake-stan92" target="_blank">
+            <img src={githubLogo} alt="github logo"></img>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jake-stanier-017267283/"
+            target="_blank"
+          >
+            <img src={linkedInLogo} alt="linked in logo"></img>
+          </a>
 
-        <img src={resumeLogo} alt="download resume"></img>
+          <img src={resumeLogo} alt="download resume"></img>
+        </div>
+        <h1>
+          Jake Stanier<br></br>Junior Web Developer
+        </h1>
       </div>
-      <h1>
-        Jake Stanier<br></br>Junior Web Developer
-      </h1>
     </div>
   );
 };
