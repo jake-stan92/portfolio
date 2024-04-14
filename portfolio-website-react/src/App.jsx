@@ -4,6 +4,7 @@ import ContactForm from "./Components/ContactForm";
 import Header from "./Components/Header";
 import Nav from "./Components/Nav";
 import ProjectContainer from "./Components/ProjectContainer";
+import Footer from "./Components/Footer";
 
 function App() {
   const images = [
@@ -18,6 +19,7 @@ function App() {
       <About />
       <ProjectContainer images={images} />
       <ContactForm />
+      <Footer />
     </>
   );
 }
