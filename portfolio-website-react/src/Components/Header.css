@@ -14,11 +14,16 @@
 
 .socials {
   display: flex;
+  align-items: center;
   gap: 1rem;
 }
 
 .socials img {
   width: 30px;
+}
+
+.socials a {
+  display: flex;
 }
 
 h1 {

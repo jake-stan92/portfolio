@@ -5,6 +5,7 @@ import Header from "./Components/Header";
 import Nav from "./Components/Nav";
 import ProjectContainer from "./Components/ProjectContainer";
 import Footer from "./Components/Footer";
+import BackToTopButton from "./Components/BackToTopButton";
 
 function App() {
   const images = [
@@ -19,6 +20,7 @@ function App() {
       <About />
       <ProjectContainer images={images} />
       <ContactForm />
+      <BackToTopButton />
       <Footer />
     </>
   );

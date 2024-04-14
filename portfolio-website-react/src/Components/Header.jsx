@@ -10,8 +10,16 @@ const Header = () => {
     <div className="header">
       <img id="avatar-img" src={avatar} alt="profile picture"></img>
       <div className="socials">
-        <img src={githubLogo} alt="github logo"></img>
-        <img src={linkedInLogo} alt="linked in logo"></img>
+        <a href="https://github.com/jake-stan92" target="_blank">
+          <img src={githubLogo} alt="github logo"></img>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/jake-stanier-017267283/"
+          target="_blank"
+        >
+          <img src={linkedInLogo} alt="linked in logo"></img>
+        </a>
+
         <img src={resumeLogo} alt="download resume"></img>
       </div>
       <h1>
