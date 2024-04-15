@@ -9,12 +9,21 @@ const ContactForm = () => {
         <h2>Contact</h2>
         <form id="contact-form" name="contact-form" method="POST">
           <input type="hidden" name="form-name" value="contact-form" />
-          <input required type="text" id="name-input" placeholder="Full Name" />
+          <input
+            required
+            type="text"
+            name="name-input"
+            id="name-input"
+            placeholder="Full Name"
+            aria-label="name-input-field"
+          />
           <input
             required
             type="email"
+            name="email-input"
             id="email-input"
             placeholder="Email Address"
+            aria-label="email-input-field"
           />
           <textarea
             name="message-input"
@@ -24,10 +33,15 @@ const ContactForm = () => {
             placeholder="Write Your Message..."
             required
             maxLength={250}
+            aria-label="message-input-area"
           ></textarea>
-          <button type="submit" id="submit-form-button">
+          <button
+            type="submit"
+            id="submit-form-button"
+            aria-label="submit-button"
+          >
             Send Message
-            <img src={sendIcon}></img>
+            <img src={sendIcon} alt="send icon"></img>
           </button>
         </form>
       </div>
