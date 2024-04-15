@@ -5,6 +5,7 @@
   padding: 1rem 2rem 2rem 2rem;
   border-bottom: 2px solid black;
   margin: 0rem 2rem;
+  max-width: 800px;
 }
 
 .nav-link {
@@ -29,4 +30,11 @@
 .nav-link:hover {
   background-color: rgb(255, 116, 0);
   cursor: pointer;
+}
+
+@media (width > 800px) {
+  .nav-links {
+    margin: auto;
+    width: 100%;
+  }
 }

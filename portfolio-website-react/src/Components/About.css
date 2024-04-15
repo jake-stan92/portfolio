@@ -4,4 +4,12 @@
   gap: 2rem;
   margin: 0rem 2rem;
   border-bottom: 2px solid black;
+  max-width: 800px;
+}
+
+@media (width > 800px) {
+  .about-section {
+    margin: auto;
+    padding: 1rem 2rem 2rem 2rem;
+  }
 }
