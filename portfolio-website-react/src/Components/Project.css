@@ -17,3 +17,30 @@ h3 {
 .link-logos img {
   width: 25px;
 }
+
+.project-card-link {
+  border-radius: 50%;
+}
+
+.project-card-link:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 3px rgb(255, 116, 0);
+}
+
+.mobile-img {
+  place-self: center;
+}
+
+.hide {
+  display: none;
+}
+
+@media (width > 800px) {
+  .mobile-img {
+    display: none;
+  }
+  .desktop-img {
+    display: block;
+    max-width: 100%;
+  }
+}

@@ -8,17 +8,12 @@ import Footer from "./Components/Footer";
 import BackToTopButton from "./Components/BackToTopButton";
 
 function App() {
-  const images = [
-    "https://via.placeholder.com/800x400/ff5733/fff",
-    "https://via.placeholder.com/800x400/33ff57/fff",
-    "https://via.placeholder.com/800x400/5733ff/fff",
-  ];
   return (
     <>
       <Header />
       <Nav />
       <About />
-      <ProjectContainer images={images} />
+      <ProjectContainer />
       <ContactForm />
       <BackToTopButton />
       <Footer />

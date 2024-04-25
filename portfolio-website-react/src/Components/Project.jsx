@@ -7,12 +7,34 @@ const Project = (props) => {
   return (
     <>
       <h3>{props.title}</h3>
-      <img src={props.img} alt="project screenshot"></img>
+      <img
+        className="mobile-img"
+        src={props.mobileImg}
+        alt="project screenshot"
+      ></img>
+      <img
+        className="desktop-img hide"
+        src={props.desktopImg}
+        alt="project screenshot"
+      ></img>
+
       <div className="subtitle">
         <h4>Description</h4>
         <div className="link-logos">
-          <img src={gitLogo} alt="github logo"></img>
-          <img src={linkIcon} alt="link to demo icon"></img>
+          <a href={props.gitLink}>
+            <img
+              className="project-card-link"
+              src={gitLogo}
+              alt="github logo"
+            ></img>
+          </a>
+          <a href={props.demoLink}>
+            <img
+              className="project-card-link"
+              src={linkIcon}
+              alt="link to demo icon"
+            ></img>
+          </a>
         </div>
       </div>
       <p>{props.description}</p>
