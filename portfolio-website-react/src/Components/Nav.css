@@ -37,4 +37,9 @@
     margin: auto;
     width: 100%;
   }
+
+  .nav-link-img {
+    width: 40px;
+    height: auto;
+  }
 }

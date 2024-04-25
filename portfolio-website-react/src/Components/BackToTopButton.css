@@ -25,5 +25,6 @@
 @media (width>800px) {
   .back-to-top-button {
     margin: auto;
+    padding-bottom: 1rem;
   }
 }
