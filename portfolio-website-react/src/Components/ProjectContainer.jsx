@@ -3,7 +3,7 @@ import Project from "../Components/Project";
 import "./ProjectContainer.css";
 import stravaMobile from "../assets/Project-images/StravaJS mobile.png";
 import stravaDesktop from "../assets/Project-images/StravaJS desktop.png";
-import img2 from "../assets/Nav-img/envelope.svg";
+import timeZoneCalcImg from "../assets/Project-images/TimeZone-calc-oneSize.png";
 import rightArrow from "../assets/Project-card-img/arrow-right.svg";
 import leftArrow from "../assets/Project-card-img/arrow-left.svg";
 
@@ -21,11 +21,12 @@ export default function ProjectContainer() {
     },
     {
       title: "TimeZone Calc",
-      img: img2,
-      gitLink: "",
-      demoLink: "",
+      mobileImg: timeZoneCalcImg,
+      desktopImg: timeZoneCalcImg,
+      gitLink: "https://github.com/jake-stan92/timezone/",
+      demoLink: "https://github.com/jake-stan92/timezone/",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+        "TimeZone calc was developed to help a relative manage their meetings with global clients. Entering a specific time and timezone produces relative times in other timezones. Using Python and Tkinter (as a GUI), the app has been packaged into a .exe. The app can be downloaded and used from the GitHub repo. A video demo is also available at the bottom of the ReadME.",
     },
   ];
   const nextSlide = () => {

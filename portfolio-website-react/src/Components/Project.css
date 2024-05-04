@@ -71,6 +71,7 @@ h3 {
   .desktop-img {
     display: block;
     max-width: 100%;
+    margin: auto;
   }
 
   .link-logos img {
