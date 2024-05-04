@@ -21,14 +21,14 @@ const Project = (props) => {
       <div className="subtitle">
         <h4>Description</h4>
         <div className="link-logos">
-          <a href={props.gitLink}>
+          <a href={props.gitLink} target="blank">
             <img
               className="project-card-link"
               src={gitLogo}
               alt="github logo"
             ></img>
           </a>
-          <a href={props.demoLink}>
+          <a href={props.demoLink} target="blank">
             <img
               className="project-card-link"
               src={linkIcon}
