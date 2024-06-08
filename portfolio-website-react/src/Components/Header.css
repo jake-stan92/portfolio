@@ -14,7 +14,9 @@
 }
 
 #avatar-img {
-  width: 120px;
+  width: 150px;
+  border-radius: 50%;
+  aspect-ratio: 1;
 }
 
 .socials {

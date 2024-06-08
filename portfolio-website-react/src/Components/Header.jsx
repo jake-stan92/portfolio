@@ -3,7 +3,7 @@ import "./Header.css";
 import githubLogo from "../assets/header-img/github.svg";
 import linkedInLogo from "../assets/header-img/linkedin.svg";
 import resumeLogo from "../assets/header-img/file-earmark-person-fill.svg";
-import avatar from "../assets/header-img/person-circle.svg";
+import avatar from "../assets/headshot.jpg";
 import CV from "../assets/Jake Stanier - CV.pdf";
 
 const Header = () => {
