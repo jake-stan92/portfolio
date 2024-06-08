@@ -24,7 +24,7 @@ const Header = () => {
           <img src={resumeLogo} alt="download resume"></img>
         </div>
         <h1>
-          Jake Stanier<br></br>Junior Web Developer
+          Jake Stanier<br></br>Junior Software Developer
         </h1>
       </div>
     </div>
