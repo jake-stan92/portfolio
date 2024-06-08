@@ -4,6 +4,7 @@ import githubLogo from "../assets/header-img/github.svg";
 import linkedInLogo from "../assets/header-img/linkedin.svg";
 import resumeLogo from "../assets/header-img/file-earmark-person-fill.svg";
 import avatar from "../assets/header-img/person-circle.svg";
+import CV from "../assets/Jake Stanier - CV.pdf";
 
 const Header = () => {
   return (
@@ -20,8 +21,9 @@ const Header = () => {
           >
             <img src={linkedInLogo} alt="linked in logo"></img>
           </a>
-
-          <img src={resumeLogo} alt="download resume"></img>
+          <a href={CV} download>
+            <img src={resumeLogo} alt="download resume"></img>
+          </a>
         </div>
         <h1>
           Jake Stanier<br></br>Junior Software Developer
