@@ -30,8 +30,12 @@ h3 {
 .mobile-img {
   place-self: center;
   width: 100%;
-  max-width: 500px;
-  max-height: 600px;
+  max-width: 250px;
+  max-height: 350px;
+}
+
+#project-description {
+  overflow: scroll;
 }
 
 .hide {
@@ -76,5 +80,9 @@ h3 {
 
   .link-logos img {
     width: 40px;
+  }
+
+  #project-description {
+    overflow: auto;
   }
 }

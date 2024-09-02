@@ -37,7 +37,7 @@ const Project = (props) => {
           </a>
         </div>
       </div>
-      <p>{props.description}</p>
+      <p id="project-description">{props.description}</p>
     </>
   );
 };

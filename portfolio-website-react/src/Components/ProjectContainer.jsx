@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Project from "../Components/Project";
 import "./ProjectContainer.css";
+import theRunClubIMG from "../assets/Project-images/theRunClub.png";
 import stravaMobile from "../assets/Project-images/StravaJS mobile.png";
 import stravaDesktop from "../assets/Project-images/StravaJS desktop.png";
 import timeZoneCalcImg from "../assets/Project-images/TimeZone-calc-oneSize.png";
@@ -11,11 +12,20 @@ export default function ProjectContainer() {
   const [activeIndex, setActiveIndex] = useState(0);
   const projects = [
     {
+      title: "The Run Club",
+      mobileImg: theRunClubIMG,
+      desktopImg: theRunClubIMG,
+      gitLink: "https://github.com/jake-stan92/The-Run-Club",
+      demoLink: "https://the-run-club.netlify.app/",
+      description:
+        "The Run Club is the latest iteration in my Strava app journey. After being granted additional users (1 to 999) from Strava themselves, the app now utilises Strava OAuth technology to allow anyone with a  Strava account to login and view their stats. This has allowed me to remove the slow database and backend frameworks and left me with a speedier, more accessible, application.",
+    },
+    {
       title: "StravaJS",
       mobileImg: stravaMobile,
       desktopImg: stravaDesktop,
       gitLink: "https://github.com/jake-stan92/StravaJS2.0",
-      demoLink: "https://stravajs.netlify.app/",
+      // demoLink: "https://stravajs.netlify.app/",
       description:
         "As a keen activity tracker and a lover of data, I created StravaJS to collate and display Strava activity data in a clear and concise way. The idea was initially born when a small group of friends decided to complete a 10k per week running challenge in 2023. The app has gone through 3 iterations to be where it is currently. Using the Strava API, the app collects the activities of given athletes and then filters results accordingly.",
     },
